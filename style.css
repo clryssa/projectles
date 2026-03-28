@@ -1,1 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+    display: inline;
+    background-color: #F6DFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+
+button {
+    border: 3px solid rgb(220, 64, 166);
+    background-color: #ffcaf4;
+    width: 80px;
+    height: 27px;
+    border-radius: 130px;
+    cursor: pointer;
+    color: rgb(190, 17, 115);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    transition: all 0.1s ease;
+    margin-top: 58px;
+    left: 49%;     
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffd8fc;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .navbar a:hover{
+    text-decoration: underline;
+  }
+  
+  .navbar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+.search input{
+  background-color: #ffe6fa;
+  border-radius: 50px;
+  height: 25px;
+  padding: 12px 12px;
+}
+
+.material-symbols-outlined{
+  position: absolute;
+  right: 30px;
+  z-index: 1;
+}
+/* judul */
+.hero {
+  display: flex;
+  align-items: center; /* Teks & gambar sejajar secara vertikal */
+  justify-content: space-between; /* Teks di kiri, gambar di kanan */
+  padding: 17px; /* Beri ruang samping yang lega */
+  background-color: #feeeff;
+}
+
+.hero-content {
+  flex: 1; /* Mengambil ruang kiri */
+}
+
+.hero-title {
+  color: #991b1b;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.garis-pink {
+  height: 4px;
+  background-color: #fda4af;
+  border: none; /* Hilangkan border default <hr> */
+  margin: 20px 0;
+  width: 93%; 
+  margin-left: 30px;
+}
+
+.hero-subtitle {
+  color: #390c1f; /* Warna abu-abu gelap agar lebih elegan */
+  font-size: 18px;
+  margin-left:30 ;
+}
+
+.hero-image {
+  flex: 1; /* Mengambil ruang kanan */
+  display: flex;
+  justify-content: flex-end; /* Gambar merapat ke kanan */
+  margin-right: 170px;
+}
+
+.hero-image img {
+  width: 50%; 
+  height: auto;
+}
+
+/* trending */
+.trending-container {
+  display: flex;         /* Membuat elemen di dalamnya berjejer ke samping */
+  align-items: center;    /* Membuat teks dan garis lurus secara vertikal */
+  justify-content: center;/* Membuat semuanya kumpul di tengah */
+  gap: 20px;             /* Jarak antara garis dan teks */
+  width: 100%;           /* Memenuhi lebar layar */
+  margin-top: 30px;
+}
+
+.line {
+  flex-grow: 1;          /* Membuat garis otomatis memanjang mengisi ruang kosong */
+  border: none;
+  height: 2px;
+  background-color: #fda4af; 
+}
+
+/* Supaya garisnya tidak terlalu mentok ke pinggir layar, kasih margin di container */
+.trending-container {
+  padding: 0 50px;
+
+}
+
+
+.trending{
+  color: #fda4af;
+  text-align: center;
+  margin: 0;             /* Hapus margin bawaan h2 agar tidak merusak posisi garis */
+  white-space: nowrap;   /* Mencegah teks TRENDING turun ke bawah kalau layar kecil */
+}
+
+.kartu {
+  text-align: center;
+  padding: 80px;
+  margin-top: -50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 kotak */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 200px; /* tadinya 150 → BESARIN dikit */
+  padding: 12px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(156, 60, 150, 0.616);
+}
+
+.rating{
+color: gold;
+font-size: 14px;
+}
