@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rekomendasi Buku</title>
 
+  <link rel="stylesheet" href="style.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar"> 
+  <ul>
+    <li><a href="#">PENULIS</a></li>
+    <li><a href="#">WESTERN</a></li>
+    <li><a href="#">ASIA</a></li>
+    <li><a href="#">GENRE</a></li>
+    <li><a href="#">RATING</a></li>
+    <li><a href="#">POPULAR</a></li>
+  </ul>
+
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <span class="material-symbols-outlined">search</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">
+      Temukan Cerita Terbaik<br>dalam Buku dan Film🔥
+    </h1>
+    <hr class="garis-pink">
+    <p class="hero-subtitle">
+      Temukan kisah penuh teka-teki, emosi, dan petualangan.
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <img src="buku.png">
+  </div>
+</header>
+
+<!-- TRENDING -->
+<div class="trending-container">
+  <hr class="line">
+  <h2 class="trending">TRENDING</h2>
+  <hr class="line">
+</div>
+
+<!-- CARD -->
+<section class="kartu">
+  <div class="container">
+
+    <div class="card" data-link="https://google.com">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXLkRk2IN92Shqswm8pBBVGWBcfDocHiXOcQ&s">
+      <h3>Na Willa</h3>
+      <p>Drama Keluarga</p>
+      <p class="rating">⭐ 4.6</p>
+    </div>
+
+    <div class="card" data-link="https://gramedia.com">
+      <img src="https://cdn.gramedia.com/uploads/items/img20220830_10560995.jpg">
+      <h3>Bumi (Tere Liye)</h3>
+      <p>Fantasi</p>
+      <p class="rating">⭐ 4.5</p>
+    </div>
+
+    <div class="card" data-link="https://id.wikipedia.org/wiki/J._K._Rowling">
+      <img src="https://th.bing.com/th/id/OIP.l-wcfBnR1TGMSdgoEJE0owHaKO">
+      <h3>J.K Rowling</h3>
+      <p>Harry Potter</p>
+    </div>
+
+    <div class="card" data-link="https://id.wikipedia.org/wiki/Jenna_Ortega">
+      <img src="https://cdn.britannica.com/56/243656-050-2E4A5036/Jenna-Ortega-2023.jpg">
+      <h3>Jenna Ortega</h3>
+      <p>Wednesday</p>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

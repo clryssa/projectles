@@ -1,1 +1,9 @@
+// CLICK CARD
+cards.forEach(card => {
+  card.addEventListener("click", () => {
+    const link = card.getAttribute("data-link");
+    window.location.href = link;
+  });
+});
+
 
