@@ -1,6 +1,6 @@
 body{
 text-align: center;
-font-family: Arial;
+font-family: "Poppins", sans-serif;
 background-color: #FDE2FF;
 }
 
@@ -42,7 +42,8 @@ margin: 0;
 .rating{
 font-size:14px;
 color:#f39c12;
-margin-top:3px;
+margin-top:0px;
+font-weight: bold;
 }
 
 .film{
