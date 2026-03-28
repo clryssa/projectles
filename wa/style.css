@@ -1,0 +1,83 @@
+body{
+text-align: center;
+font-family: Arial;
+background-color: #FDE2FF;
+}
+
+.title{
+font-size: 48px;
+font-weight: bold;
+background: linear-gradient(90deg, #F566FF 0%, #A744AE 50%, #76307B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+justify-items: center;
+}
+
+.parent img{
+width:150px;
+height:220px;
+object-fit: cover;
+display:block;
+}
+
+.judul{
+font-weight: bold;
+font-size: 16px;
+margin-top: 10px;
+margin-bottom: 2px; 
+}
+
+.genre{
+font-size: 14px;
+color: #555;
+margin: 0;
+}
+
+.rating{
+font-size:14px;
+color:#f39c12;
+margin-top:3px;
+}
+
+.film{
+position: relative;
+text-align: center;
+width:150px;
+background: white;
+padding:10px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.film{
+transition: transform 0.3s;
+}
+
+.film:hover{
+transform: translateY(-5px);
+}
+
+.label{
+position:absolute;
+top:8px;
+left:8px;
+color:white;
+padding:4px 8px;
+font-size:12px;
+border-radius:6px;
+backdrop-filter: blur(5px);
+}
+
+.asia{
+background:#e74c3c;
+}
+
+.western{
+background:#3498db;
+}
