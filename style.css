@@ -183,6 +183,10 @@ button {
   border-radius: 10px;
 }
 
+.gnre{
+  color: #07023b;
+}
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 10px rgba(156, 60, 150, 0.616);
