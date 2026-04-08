@@ -171,3 +171,7 @@ body {
 color: gold;
 font-size: 14px;
 }
+
+#searchBtn {
+  cursor: pointer;
+}
