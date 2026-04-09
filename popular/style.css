@@ -3,10 +3,58 @@
 body{
   background-color: #FDE2FF;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffd8fc;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+}
+
+.navbar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search input{
+  background-color: #ffe6fa;
+  border-radius: 50px;
+  height: 25px;
+  padding: 12px 12px;
+}
+
 h1{
 color:  #93139c;
 font-size: 48px;
 text-align: center;
+}
+
+.material-symbols-outlined{
+  position: absolute;
+  right: 30px;
+  z-index: 1;
 }
 
 * {
