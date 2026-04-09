@@ -6,7 +6,16 @@ const data = [
   { keyword: "Undercover Miss Hong", link: "wa/index.html" },
   { keyword: "Train to Busan", link: "wa/index.html" },
   { keyword: "Kingsman: The Golden Circle", link: "wa/index.html" },
-  { keyword: "The Summer I Turned Pretty", link: "wa/index.html" }
+  { keyword: "The Summer I Turned Pretty", link: "wa/index.html" },
+  { keyword: "Encanto", link: "popular/index.html" },
+  { keyword: "Enola Holmes", link: "popular/index.html" },
+  { keyword: "Finding Nemo", link: "popular/index.html" },
+  { keyword: "Bulan", link: "popular/index.html" },
+  { keyword: "Scooby Doo", link: "popular/index.html" },
+  { keyword: "Ngeri Ngeri Sedap", link: "popular/index.html" },
+  { keyword: "Avatar", link: "popular/index.html" },
+  { keyword: "Malice", link: "popular/index.html" }
+
 ];
 
 // AMBIL ELEMENT
