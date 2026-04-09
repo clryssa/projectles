@@ -15,7 +15,6 @@ const data = [
   { keyword: "Ngeri Ngeri Sedap", link: "popular/index.html" },
   { keyword: "Avatar", link: "popular/index.html" },
   { keyword: "Malice", link: "popular/index.html" }
-
 ];
 
 // AMBIL ELEMENT
