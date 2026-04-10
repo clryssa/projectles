@@ -57,6 +57,10 @@ body {
   padding: 12px 12px;
 }
 
+#searchBtn {
+  cursor: pointer;
+}
+
 .material-symbols-outlined{
   position: absolute;
   right: 30px;
@@ -109,6 +113,7 @@ body {
   height: auto;
 }
 
+/* kartu */
 .trending-container {
   display: flex;         /*elemen jejer ke samping */
   align-items: center;    /*teks dan garis lurus vertikal */
@@ -173,6 +178,20 @@ color: gold;
 font-size: 14px;
 }
 
-#searchBtn {
-  cursor: pointer;
+.jenis{
+  position:absolute;
+  top:8px;
+  left:8px;
+  color:white;
+  padding:4px 10px;
+  font-size:12px;
+  border-radius:20px;
+  backdrop-filter: blur(5px);
+  background:#fca8f5aa;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover .jenis{
+  opacity: 1;
 }
