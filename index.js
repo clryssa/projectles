@@ -13,7 +13,7 @@ const data = [
   { keyword: "Bulan", link: "popular/index.html" },
   { keyword: "Scooby Doo", link: "popular/index.html" },
   { keyword: "Ngeri Ngeri Sedap", link: "popular/index.html" },
-  { keyword: "Avatar", link: "popular/index.html" },
+  { keyword: "Inside Out", link: "popular/index.html" },
   { keyword: "Malice", link: "popular/index.html" }
 ];
 
@@ -24,6 +24,11 @@ const searchBtn = document.getElementById("searchBtn");
 // FUNGSI SEARCH
 function cari() {
   const keyword = searchInput.value.toLowerCase().trim();
+
+  if (keyword === "") {
+    alert("Isi Dahulu😅");
+    return;
+  }
 
   const hasil = data.find(item =>
     item.keyword.toLowerCase().includes(keyword)
