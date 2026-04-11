@@ -70,13 +70,14 @@ h1{
 color:  #93139c;
 font-size: 48px;
 text-align: center;
+margin-top: 10px;
 }
 
 
 .kartu {
     text-align: center;
     padding: 80px;
-    margin-top: -50px;
+    margin-top: -70px;
   }
 
 .jenis-film{
