@@ -22,7 +22,15 @@ const data = [
     { keyword: "Laskar Pelangi", link: "../rating/index.html" },
     { keyword: "Sang Pemimpi", link: "../rating/index.html" },
     { keyword: "Perahu Kertas", link: "../rating/index.html" },
-    { keyword: "Jumbo", link: "../rating/index.html" }
+    { keyword: "Jumbo", link: "../rating/index.html" },
+    { keyword: "Zhou Yiran", link: "../aktor/index.html" },
+    { keyword: "Chen Ze Yuan", link: "../aktor/index.html" },
+    { keyword: "Cha woo min", link: "../aktor/index.html" },
+    { keyword: "Song kang", link: "../aktor/index.html" },
+    { keyword: "Dian Sastro", link: "../aktor/index.html" },
+    { keyword: "Ji Chang Wook", link: "../aktor/index.html" },
+    { keyword: "louis partridge", link: "../aktor/index.html" },
+    { keyword: "milley bobby brown", link: "../aktor/index.html" }
 ];
 
 const searchInput = document.getElementById("searchInput");
