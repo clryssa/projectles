@@ -7,7 +7,15 @@ const data = [
     { keyword: "Undercover Miss Hong", link: "../wa/index.html" },
     { keyword: "Train to Busan", link: "../wa/index.html" },
     { keyword: "Kingsman: The Golden Circle", link: "../wa/index.html" },
-    { keyword: "The Summer I Turned Pretty", link: "../wa/index.html" }
+    { keyword: "The Summer I Turned Pretty", link: "../wa/index.html" },
+    { keyword: "Zhou Yiran", link: "../aktor/index.html" },
+    { keyword: "Chen Ze Yuan", link: "../aktor/index.html" },
+    { keyword: "Cha woo min", link: "../aktor/index.html" },
+    { keyword: "Song kang", link: "../aktor/index.html" },
+    { keyword: "Dian Sastro", link: "../aktor/index.html" },
+    { keyword: "Ji Chang Wook", link: "../aktor/index.html" },
+    { keyword: "louis partridge", link: "../aktor/index.html" },
+    { keyword: "milley bobby brown", link: "../aktor/index.html" }
 ];
 
   // AMBIL ELEMENT
