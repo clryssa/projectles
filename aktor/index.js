@@ -16,6 +16,14 @@
     { keyword: "Ngeri Ngeri Sedap", link: "../popular/index.html" },
     { keyword: "Inside Out", link: "../popular/index.html" },
     { keyword: "Malice", link: "../popular/index.html" }
+    { keyword: "Back to the Future", link: "../rating/index.html" },
+    { keyword: "The Little Prince", link: "../rating/index.html" },
+    { keyword: "Frozen 2", link: "../rating/index.html" },
+    { keyword: "Bumi Manusia", link: "../rating/index.html" },
+    { keyword: "Laskar Pelangi", link: "../rating/index.html" },
+    { keyword: "Sang Pemimpi", link: "../rating/index.html" },
+    { keyword: "Perahu Kertas", link: "../rating/index.html" },
+    { keyword: "Jumbo", link: "../rating/index.html" }
   ];
 
   // AMBIL ELEMENT
