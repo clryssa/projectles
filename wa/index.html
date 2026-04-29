@@ -1,104 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wa</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="berisi rekomendasi film yang menarik mulai dari remaja hingga dewasa">
+<meta name="keywords" content="nonton film">
+<title>Western & Asia</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
 </head>
+
 <body>
-    <h1 class="title">Western & Asia</h1>
 
-    <div class="parent">
-        <div class="div1 film">
-            <span class="label western">Western</span>
-            <img src="https://th.bing.com/th/id/OIP.xW3P2XYxvIlKhNNpbiMKFQHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
-                onclick="showPopup('The Summer I Turned Pretty','Romance','7.2',this.src,'Belly telah menghabiskan setiap musim panas di Cousins Beach bersama keluarga Fisher. Namun musim panas ini semuanya terasa berbeda.','2022')">
-            <p class="judul">The Summer I Turned Pretty</p>
-            <p class="genre">Romance</p>
-            <p class="rating">⭐ 7.2</p>
-        </div>
+<nav class="navbar"> 
+<ul>
+    <li><a href="aktor/index.html">AKTOR</a></li>
+    <li><a href="../wa/index.html">WESTERN</a></li>
+    <li><a href="../wa/index.html">ASIA</a></li>
+    <li><a href="../rating/index.html">RATING</a></li>
+    <li><a href="../popular/index.html">POPULAR</a></li>
+    <li><a href="../index.html">HOME</a></li>
+</ul>
 
-        <div class="div2 film">
-            <span class="label asia">Asia</span>
-            <img src="https://th.bing.com/th/id/OIP.kmfZHOQEwIulFtHToCrDNQHaKf?w=115&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
-                onclick="showPopup('Undercover Miss Hong','Comedy, Crime','7.5',this.src,'Seorang wanita biasa yang tanpa sengaja terlibat dalam operasi kepolisian rahasia. Penuh aksi komedi dan kejutan.','2026')">
-            <p class="judul">Undercover Miss Hong</p>
-            <p class="genre">Comedy, Crime</p>
-            <p class="rating">⭐ 7.5</p>
-        </div>
-
-        <div class="div3 film">
-            <span class="label western">Western</span>
-            <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/04/kingsman-the-golden-circle-movie-poster.jpg"
-                onclick="showPopup('Kingsman: The Golden Circle','Action, Adventure','6.7',this.src,'Markas besar Kingsman dihancurkan. Eggsy dan Merlin harus bekerja sama dengan agen Amerika untuk melawan musuh baru yang mematikan.','2017')">
-            <p class="judul">Kingsman: The Golden Circle</p>
-            <p class="genre">Action, Adventure</p>
-            <p class="rating">⭐ 6.7</p>
-        </div>
-
-        <div class="div4 film">
-            <span class="label asia">Asia</span>
-            <img src="https://image.tmdb.org/t/p/original/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg"
-                onclick="showPopup('Crazy Rich Asians','Romantic Comedy','6.9',this.src,'Rachel Chu terkejut saat mengetahui kekasihnya adalah salah satu pria paling kaya di Asia. Penuh drama keluarga dan humor.','2018')">
-            <p class="judul">Crazy Rich Asians</p>
-            <p class="genre">Romantic Comedy</p>
-            <p class="rating">⭐ 6.9</p>
-        </div>
-
-        <div class="film">
-            <span class="label western">Western</span>
-            <img src="https://th.bing.com/th/id/OIP.jFWga73Vye9w2gQvqWJX6gHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
-                onclick="showPopup('Spider-Man: No Way Home','Action, Sci-Fi','8.1',this.src,'Peter Parker meminta Doctor Strange untuk membuat dunia melupakan identitasnya. Mantra yang salah membuka portal multiverse.','2021')">
-            <p class="judul">Spider-Man: No Way Home</p>
-            <p class="genre">Action, Sci-Fi</p>
-            <p class="rating">⭐ 8.1</p>
-        </div>
-
-        <div class="film">
-            <span class="label asia">Asia</span>
-            <img src="https://th.bing.com/th/id/OIP.2QJyxAs8RYbKsHmhIcGiMAHaKl?w=202&h=288&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
-                onclick="showPopup('Train to Busan','Action, Horror','7.6',this.src,'Sekelompok penumpang kereta menuju Busan harus bertahan hidup dari wabah zombie yang menyebar dengan cepat di Korea Selatan.','2016')">
-            <p class="judul">Train to Busan</p>
-            <p class="genre">Horror, Action</p>
-            <p class="rating">⭐ 7.6</p>
-        </div> 
-
-        <div class="film">
-            <span class="label western">Western</span>
-            <img src="https://th.bing.com/th/id/OIP.grGgKS0m0e6N4obGbAqwogHaK-?w=115&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
-                onclick="showPopup('Avengers: Endgame','Action, Sci-Fi','8.4',this.src,'Para Avengers yang tersisa berkumpul kembali untuk membalikkan kehancuran yang disebabkan oleh Thanos dan menyelamatkan alam semesta.','2019')">
-            <p class="judul">Avengers: Endgame</p>
-            <p class="genre">Action, Superhero</p>
-            <p class="rating">⭐ 8.4</p>
-        </div>
-
-        <div class="film">
-            <span class="label asia">Asia</span>
-            <img src="https://th.bing.com/th/id/OIP.A-ahh0x5q8yPh5wVLssujwHaKY?w=128&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
-                onclick="showPopup('Dilan 1990','Romance','7.4',this.src,'Kisah cinta remaja antara Dilan dan Milea di Bandung tahun 1990 yang penuh dengan momen manis dan unik.','2018')">
-            <p class="judul">Dilan 1990</p>
-            <p class="genre">Romance</p>
-            <p class="rating">⭐ 7.1</p>
-        </div>
-
-    <div id="popup" class="popup">
-    <div class="popup-content">
-        <span class="close" onclick="closePopup()">×</span>
-
-        <div class="popup-top">
-            <img id="popup-img" class="popup-img" src="" alt="">
-            <div class="popup-text">
-                <h2 id="popup-title"></h2>
-                <p id="popup-genre"></p>
-                <p id="popup-rating"></p>
-                <p id="popup-year"></p>
-            </div>
-        </div>
-        <p id="popup-desc"></p>
+<div class="search">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <span id="searchBtn" class="material-symbols-outlined">
+        search
+    </span>
     </div>
+    </nav>
+
+<h1>Western & Asia</h1>
+
+<section class="kartu">
+<div class="container">
+
+<div class="card">
+<span class="jenis-film western">Western</span>
+<img src="https://th.bing.com/th/id/OIP.xW3P2XYxvIlKhNNpbiMKFQHaLH"
+onclick="showPopup('The Summer I Turned Pretty','Romance','7.2',this.src,'Belly menghabiskan musim panas di Cousins Beach bersama keluarga Fisher.','2022')">
+<h3>The Summer I Turned Pretty</h3>
+<p class="gnre">Romance</p>
+<p class="rating">⭐ 7.2</p>
 </div>
 
-    <script src="index.js"></script>
+<div class="card">
+<span class="jenis-film asia">Asia</span>
+<img src="https://th.bing.com/th/id/OIP.kmfZHOQEwIulFtHToCrDNQHaKf"
+onclick="showPopup('Undercover Miss Hong','Comedy, Crime','7.5',this.src,'Wanita biasa terlibat operasi rahasia polisi.','2007')">
+<h3>Undercover Miss Hong</h3>
+<p class="gnre">Comedy, Crime</p>
+<p class="rating">⭐ 7.5</p>
+</div>
+
+<div class="card">
+<span class="jenis-film western">Western</span>
+<img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/04/kingsman-the-golden-circle-movie-poster.jpg"
+onclick="showPopup('Kingsman: The Golden Circle','Action','6.7',this.src,'Agen rahasia melawan musuh baru.','2017')">
+<h3>Kingsman: The Golden Circle</h3>
+<p class="gnre">Action</p>
+<p class="rating">⭐ 6.7</p>
+</div>
+
+<div class="card">
+<span class="jenis-film western">Western</span>
+<img src="https://th.bing.com/th/id/OIP.jFWga73Vye9w2gQvqWJX6gHaLH"
+onclick="showPopup('Spider-Man: No Way Home','Action','8.1',this.src,'Petualangan multiverse.','2021')">
+<h3>Spider-Man: No Way Home</h3>
+<p class="gnre">Action</p>
+<p class="rating">⭐ 8.1</p>
+</div>
+
+<div class="card">
+<span class="jenis-film asia">Asia</span>
+<img src="https://image.tmdb.org/t/p/original/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg"
+onclick="showPopup('Crazy Rich Asians','Romantic Comedy','6.9',this.src,'Wanita mengetahui pacarnya kaya raya.','2018')">
+<h3>Crazy Rich Asians</h3>
+<p class="gnre">Romantic Comedy</p>
+<p class="rating">⭐ 6.9</p>
+</div>
+
+<div class="card">
+<span class="jenis-film asia">Asia</span>
+<img src="https://th.bing.com/th/id/OIP.2QJyxAs8RYbKsHmhIcGiMAHaKl"
+onclick="showPopup('Train to Busan','Horror','7.6',this.src,'Zombie di kereta cepat.','2016')">
+<h3>Train to Busan</h3>
+<p class="gnre">Horror</p>
+<p class="rating">⭐ 7.6</p>
+</div>
+
+<div class="card">
+<span class="jenis-film western">Western</span>
+<img src="https://th.bing.com/th/id/OIP.grGgKS0m0e6N4obGbAqwogHaK-"
+onclick="showPopup('Avengers Endgame','Action','8.4',this.src,'Pertempuran akhir Avengers.','2019')">
+<h3>Avengers Endgame</h3>
+<p class="gnre">Action</p>
+<p class="rating">⭐ 8.4</p>
+</div>
+
+<div class="card">
+<span class="jenis-film asia">Asia</span>
+<img src="https://th.bing.com/th/id/OIP.A-ahh0x5q8yPh5wVLssujwHaKY"
+onclick="showPopup('Dilan 1990','Romance','7.1',this.src,'Kisah cinta remaja.','2018')">
+<h3>Dilan 1990</h3>
+<p class="gnre">Romance</p>
+<p class="rating">⭐ 7.1</p>
+</div>
+
+</div>
+</section>
+
+<div id="popup" class="popup">
+<div class="popup-content">
+<span class="close" onclick="closePopup()">×</span>
+
+<img id="popup-img" class="popup-img">
+<h2 id="popup-title"></h2>
+<p id="popup-genre"></p>
+<p id="popup-rating"></p>
+<p id="popup-year"></p>
+<p id="popup-desc"></p>
+
+</div>
+</div>
+
+<script src="index.js"></script>
 </body>
 </html>

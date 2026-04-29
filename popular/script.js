@@ -15,7 +15,15 @@ const data = [
     { keyword: "Dian Sastro", link: "../aktor/index.html" },
     { keyword: "Ji Chang Wook", link: "../aktor/index.html" },
     { keyword: "louis partridge", link: "../aktor/index.html" },
-    { keyword: "milley bobby brown", link: "../aktor/index.html" }
+    { keyword: "milley bobby brown", link: "../aktor/index.html" },
+    { keyword: "Back to the Future", link: "../rating/index.html" },
+    { keyword: "The Little Prince", link: "../rating/index.html" },
+    { keyword: "Frozen 2", link: "../rating/index.html" },
+    { keyword: "Bumi Manusia", link: "../rating/index.html" },
+    { keyword: "Laskar Pelangi", link: "../rating/index.html" },
+    { keyword: "Sang Pemimpi", link: "../rating/index.html" },
+    { keyword: "Perahu Kertas", link: "../rating/index.html" },
+    { keyword: "Jumbo", link: "../rating/index.html" }
 ];
 
   // AMBIL ELEMENT
